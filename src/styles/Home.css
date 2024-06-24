@@ -1,0 +1,74 @@
+.main-grid{
+    display: flex;
+     gap: 10px;
+     justify-content: center;
+     margin: 10px;
+     margin-bottom: 100px; 
+}
+
+.box{
+    border-radius: 10px;
+}
+
+.box1{
+    background-color: darkgray;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+   
+}
+
+ .box2{
+    background: rgb(130,226,202);
+    background: linear-gradient(0deg, rgba(130,226,202,1) 2%, rgba(0,255,166,1) 100%);
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 400px;
+    }
+}
+
+ .box3{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 250px;
+    height: 240px;
+   
+}
+
+ .box4{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 340px;
+    height: 240px;
+    
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adds{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+.new-btn{
+    background-color: rgb(36, 36, 36);
+    color: #f5f2f2;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #000;
+}
